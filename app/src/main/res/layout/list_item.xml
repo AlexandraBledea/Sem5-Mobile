@@ -17,6 +17,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:background="@color/LighterOrange"
             android:orientation="horizontal">
 
             <LinearLayout
@@ -26,44 +27,56 @@
                 android:orientation="vertical">
 
                 <TextView
+                    android:id="@+id/ID"
+                    android:layout_width="142dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/font2bold"
+                    android:paddingLeft="20dp"
+                    android:text="@string/id"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    tools:paddingLeft="20dp" />
+
+                <TextView
                     android:id="@+id/titleID"
                     android:layout_width="142dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:fontFamily="@font/font2bold"
-                    android:textColor="@color/black"
                     android:paddingLeft="20dp"
-                    android:textSize="17sp"
                     android:text="@string/title"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
                     tools:paddingLeft="20dp" />
 
                 <TextView
                     android:id="@+id/dateID"
                     android:layout_width="142dp"
-                    android:fontFamily="@font/font2bold"
-                    android:textColor="@color/black"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:fontFamily="@font/font2bold"
                     android:paddingLeft="20dp"
-                    android:textSize="17sp"
-                    android:text="@string/date" />
+                    android:text="@string/date"
+                    android:textColor="@color/black"
+                    android:textSize="17sp" />
 
                 <TextView
                     android:id="@+id/emotionID"
                     android:layout_width="142dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:textSize="17sp"
                     android:fontFamily="@font/font2bold"
-                    android:textColor="@color/black"
                     android:paddingLeft="20dp"
-                    android:text="@string/emotion" />
+                    android:text="@string/emotion"
+                    android:textColor="@color/black"
+                    android:textSize="17sp" />
 
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="97dp"
+                android:layout_height="92dp"
                 android:background="@color/LighterOrange"
                 android:orientation="vertical">
 
@@ -72,6 +85,7 @@
                     android:layout_width="39dp"
                     android:layout_height="30dp"
                     android:contentDescription="@string/editButton"
+                    android:layout_marginTop="15dp"
                     android:paddingTop="2dp"
                     android:paddingRight="2dp"
                     app:srcCompat="@drawable/edit" />

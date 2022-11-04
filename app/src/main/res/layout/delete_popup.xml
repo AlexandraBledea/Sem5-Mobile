@@ -101,8 +101,8 @@
 
     <TextView
         android:id="@+id/titleLabel"
-        android:layout_width="301dp"
-        android:layout_height="51dp"
+        android:layout_width="265dp"
+        android:layout_height="30dp"
         android:fontFamily="casual"
         android:gravity="center_horizontal"
         android:textAlignment="center"

@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/LightOrange" >
+    android:background="@color/LightOrange"
+    tools:context=".service.AddNoteActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/linearLayout3"
@@ -61,13 +62,34 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <EditText
-            android:id="@+id/emotionInputCreate"
+            android:id="@+id/idInputCreate"
             android:layout_width="371dp"
             android:layout_height="49dp"
             android:layout_marginStart="24dp"
-            android:layout_marginTop="162dp"
+            android:layout_marginTop="93dp"
             android:layout_marginEnd="16dp"
-            android:layout_marginBottom="520dp"
+            android:layout_marginBottom="589dp"
+            android:autofillHints=""
+            android:background="@color/LighterOrange"
+            android:ems="10"
+            android:fontFamily="@font/font2bold"
+            android:hint="@string/createID"
+            android:inputType="none"
+            android:textColorHint="#000000"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/emotionInputCreate"
+            android:layout_width="371dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="212dp"
+            android:layout_marginEnd="18dp"
+            android:layout_marginBottom="470dp"
             android:autofillHints=""
             android:background="@color/LighterOrange"
             android:ems="10"
@@ -82,34 +104,13 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
-            android:id="@+id/titleInputCreate"
-            android:layout_width="371dp"
-            android:layout_height="49dp"
-            android:layout_marginStart="23dp"
-            android:layout_marginTop="101dp"
-            android:layout_marginEnd="17dp"
-            android:layout_marginBottom="581dp"
-            android:autofillHints=""
-            android:background="@color/LighterOrange"
-            android:ems="10"
-            android:fontFamily="@font/font2bold"
-            android:hint="@string/createTitle"
-            android:inputType="textPersonName"
-            android:textColorHint="#000000"
-            android:textSize="20sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <EditText
             android:id="@+id/motivationalInputCreate"
             android:layout_width="372dp"
             android:layout_height="49dp"
-            android:layout_marginStart="23dp"
-            android:layout_marginTop="220dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginBottom="462dp"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="270dp"
+            android:layout_marginEnd="17dp"
+            android:layout_marginBottom="412dp"
             android:autofillHints=""
             android:background="@color/LighterOrange"
             android:ems="10"
@@ -124,20 +125,41 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
+            android:id="@+id/titleInputCreate"
+            android:layout_width="371dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="152dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="530dp"
+            android:autofillHints=""
+            android:background="@color/LighterOrange"
+            android:ems="10"
+            android:fontFamily="@font/font2bold"
+            android:hint="@string/createTitle"
+            android:inputType="textPersonName"
+            android:textColorHint="#000000"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
             android:id="@+id/textInputCreate"
             android:layout_width="370dp"
-            android:layout_height="349dp"
-            android:layout_marginStart="25dp"
-            android:layout_marginTop="285dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginBottom="97dp"
+            android:layout_height="302dp"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="328dp"
+            android:layout_marginEnd="18dp"
+            android:layout_marginBottom="101dp"
             android:autofillHints=""
             android:background="@color/LighterOrange"
             android:ems="10"
             android:fontFamily="@font/font2bold"
             android:gravity="top"
             android:hint="@string/createText"
-            android:inputType="textPersonName"
+            android:inputType="textMultiLine"
             android:textColorHint="#000000"
             android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -178,5 +200,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
