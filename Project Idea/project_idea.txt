@@ -1,0 +1,71 @@
+
+Speak Your Mind - a Mobile Application for Memories and Emotions Management
+
+1. Short description
+ 
+Nowadays, people are very hesitant when it comes to talking about their emotions, feelings, memories or
+what happend during their day. Because everyone has a busy schedule, for every human is hard
+to find someone to talk to and unload the emotions felt in one day. These things lead to so many unknown feelings,
+anxiety, depression and the list goes on.
+Because it is very useful to keep track of all these feelings, emotions, memories, we would like to take advantage
+of the evolution of technology.
+Hence, Speak Your Mind is an application which allows the user to keep track of all these significant moments of
+his life, in other words it will act just like a journal.
+
+2. Domain details
+
+Shortly, we should focus on our subject, the note
+Story: title, text, emotion, date,  motivational_message
+
+- title: represents the most significant words refering the story, which will be chosen by the user.
+- text: represents the story itself which will be written by the user
+- emotion: represents the most predominant emotion the human felt during that story
+- date: represents the date in which the story took place
+- motivational_message: represents a message the user write for himself, to help him overcome the difficulties
+he's fighting.
+
+3. How do we want to use this product?
+
+- When using "Speak Your Mind", we want to be able to add a new story (note) to our journal, whenever something
+new or what we think it's significant to our lives happen. So, we are thinking of a button, which redirects to a
+separate page. Here, we can enter all the necessary information for our story.
+
+- We want to have the option of listing all the registered notes together.
+
+- People tend to forget some essential informations or emotions from a day, have grammar issues or simply found a
+better title for the note, reason why it is mandatory to give the user the possibility to modify the notes.
+We consider that a button for "update" is intuitive and by pressing it, the user will be redirected to a new page,
+in the same manner as for the "add" option. Such a button will exist next to each item in the list.
+
+- Because people sometimes wish to not remeber a specific story, they have already written, it is necessary to give
+them the delete option. We would like to have a button, for "delete" action, next to each item in the list and a confirmation for
+such an action, because that button may be pressed by accident or maybe the user just changes his mind.
+
+4. How to we store our stories?
+
+- We believe that the persistence is vital to our application, so we want it to be both connected to
+a loval database and a server. This would make "Speak Your Mind" available online and offline too. 
+For adding/updating/deleting a story we want to store the changes both ways, so they would be persisted on the
+server and on the local database too.
+
+- When the user is online, the data for listing our entities is taken from the
+server (so updates are reflected immediately).
+
+- When the user is offline, the temporary data is taken from the local database.
+
+5. Whan happens if the user is offline?
+
+- In this case, we want to develop an application which lets the user to add, remove and modify entries locally.
+In this way, changes will persist only locally in the database. 
+
+When the application is used offline, all the operations performed store the information locally:
+-	the entities created are stored in the local database
+-	the read operation is performed on the locally saved entities
+-	the update operation goes for the locally saved entities
+-	the delete operation is performed on the local database
+
+- When the application goes back online, all the changes on the local database are transmitted to the server.
+ 
+- As long as there is no internet connection, the notes are available only with the properties
+previously saved in the database.
+
