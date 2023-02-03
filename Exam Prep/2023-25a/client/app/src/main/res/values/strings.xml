@@ -27,4 +27,5 @@
     <string name="addItemPrice">Price</string>
     <string name="cancelOptionButton">Cancel</string>
     <string name="saveOptionButton">Save</string>
+    <string name="title_activity_main">MainActivity</string>
 </resources>
