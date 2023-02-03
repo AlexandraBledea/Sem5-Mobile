@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink_pale"
+    android:gravity="center"
+    android:showDividers="middle"
+    android:divider="@drawable/empty_tall_divider"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/addName"
+        android:layout_width="371dp"
+        android:layout_height="48dp"
+        android:autofillHints=""
+        android:background="@color/material_dynamic_tertiary90"
+        android:ems="10"
+        android:hint="@string/addItemName"
+        android:textColorHint="#000000"
+        android:textSize="20sp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/addImage"
+        android:layout_width="371dp"
+        android:layout_height="48dp"
+        android:autofillHints=""
+        android:background="@color/material_dynamic_tertiary90"
+        android:ems="10"
+        android:hint="@string/addItemImage"
+        android:textColorHint="#000000"
+        android:textSize="20sp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+
+
+    <EditText
+        android:id="@+id/addCategory"
+        android:layout_width="371dp"
+        android:layout_height="49dp"
+        android:autofillHints=""
+        android:background="@color/material_dynamic_tertiary90"
+        android:ems="10"
+        android:hint="@string/addItemCategory"
+        android:inputType="textPersonName"
+        android:textColorHint="#000000"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/addDescription"
+        android:layout_width="371dp"
+        android:layout_height="49dp"
+        android:autofillHints=""
+        android:background="@color/material_dynamic_tertiary90"
+        android:ems="10"
+        android:hint="@string/addItemDescription"
+        android:inputType="textPersonName"
+        android:textColorHint="#000000"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/titleInputCreate"
+        android:layout_width="371dp"
+        android:layout_height="49dp"
+        android:autofillHints=""
+        android:background="@color/material_dynamic_tertiary90"
+        android:ems="10"
+        android:hint="@string/addItemUnits"
+        android:inputType="textPersonName"
+        android:textColorHint="#000000"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/textInputCreate"
+        android:layout_width="370dp"
+        android:layout_height="49dp"
+        android:autofillHints=""
+        android:background="@color/material_dynamic_tertiary90"
+        android:ems="10"
+        android:gravity="top"
+        android:hint="@string/addItemPrice"
+        android:inputType="textMultiLine"
+        android:textColorHint="#000000"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/pink_pale"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <!--    <Button-->
+        <!--        android:id="@+id/cancelButtonCreate"-->
+        <!--        android:layout_width="116dp"-->
+        <!--        android:layout_height="48dp"-->
+        <!--        android:background="@color/pink_pale"-->
+        <!--        android:text="@string/cancelOptionButton"-->
+        <!--        android:textSize="18sp"-->
+        <!--        android:layout_marginRight="10dp"/>-->
+
+        <Button
+            android:id="@+id/saveButtonCreate"
+            android:layout_width="116dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/pink_pale_02"
+            android:contentDescription="@string/saveOptionButton"
+            android:text="@string/saveOptionButton"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

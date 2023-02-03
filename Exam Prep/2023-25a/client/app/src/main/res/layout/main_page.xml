@@ -10,11 +10,19 @@
         android:id="@+id/mainSectionButton"
         android:layout_width="229dp"
         android:layout_height="75dp"
-        android:text="@string/mainSectionButton" />
+        android:text="@string/mainSectionButton"
+        android:backgroundTint="@color/pink_pale_02"
+        android:contentDescription="@string/saveOptionButton"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
 
     <Button
         android:id="@+id/priceSectionButton"
         android:layout_width="229dp"
         android:layout_height="75dp"
-        android:text="@string/priceSectionButton" />
+        android:text="@string/priceSectionButton"
+        android:backgroundTint="@color/pink_pale_02"
+        android:contentDescription="@string/saveOptionButton"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
 </LinearLayout>
