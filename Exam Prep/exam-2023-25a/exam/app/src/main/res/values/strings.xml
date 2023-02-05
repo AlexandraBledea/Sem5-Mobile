@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">client</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="category">Category</string>
+    <string name="mainSectionButton">main</string>
+    <string name="priceSectionButton">price</string>
+    <string name="deleteButton">delete</string>
+    <string name="name">name</string>
+    <string name="description">description</string>
+    <string name="image">image</string>
+    <string name="units">units</string>
+    <string name="price">price</string>
+    <string name="deleteItemButton">delete</string>
+    <string name="addItemName">Name</string>
+    <string name="addItemImage">Image</string>
+    <string name="addItemCategory">Category</string>
+    <string name="addItemDescription">Description</string>
+    <string name="addItemUnits">Units</string>
+    <string name="addItemPrice">Price</string>
+    <string name="cancelOptionButton">Cancel</string>
+    <string name="saveOptionButton">Save</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="category_format">Category: %s</string>
+
+    <string name="name_format">Name: %s</string>
+    <string name="description_format">Description: %s</string>
+    <string name="image_format">Image: %s</string>
+    <string name="units_format">Units: %d</string>
+    <string name="price_format">Price: %f</string>
+    <string name="addButtonText">Add</string>
+
+</resources>
